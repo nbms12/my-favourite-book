@@ -123,10 +123,10 @@
         
         <form id="bookform">
             <label for="cricketerName">Enter your Name:</label>
-            <input type="text" id="myname" name="myname" required>
+            <input type="text" id="myName" name="myName" required>
             
             <label for="countryName">Enter book Name:</label>
-            <input type="text" id="mybook" name="mybook" required>
+            <input type="text" id="myBook" name="myBook" required>
             
             <button type="submit">Submit</button>
         </form>
@@ -138,8 +138,8 @@
     <script>
         document.getElementById('bookform').addEventListener('submit', function(e) {
             e.preventDefault();
-            const myName = document.getElementById('myname').value;
-            const myBook = document.getElementById('mybook').value;
+            const myName = document.getElementById('myName').value;
+            const myBook = document.getElementById('myBook').value;
 
             fetch('/submit', {
                 method: 'POST',
