@@ -70,32 +70,9 @@ Aim of project : book store
 
 
 
-    << >>
+    << congrats ! happy learning >>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/78aa0363-69e4-4ba4-8152-1333c6537fa2)
