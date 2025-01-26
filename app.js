@@ -36,7 +36,7 @@ app.post('/submit', (req, res) => {
     console.log('my name is:', myName);
     console.log('my fav book is:', myBook);
 
-    const sql = 'INSERT INTO cricketers (myName,myBook) VALUES (?, ?)';
+    const sql = 'INSERT INTO mybooks (myName,myBook) VALUES (?, ?)';
     db.query(sql, [myName, myBook], (err, result) => {
         if (err) {
             console.error('Error inserting data: ', err);
